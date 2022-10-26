@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*BASIC*/
+.header{
+    background-color: chartreuse;
+    height:80px;
+}
+.body{
+    background-color: crimson;
+    height:800px;
+}
+.footer{
+    background-color: darkcyan;
+    height:80px;
+}
+
+/*HEADER*/
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+.logo
+{
+    width: 10%;
+    padding: 10px;
+    background-color: blueviolet;    
+}
+.search
+{
+    width: 60%;
+    background-color:brown;
+}
+.sidebar
+{
+    width:30%;
+}
+
+/*NAV*/
+.logo-img
+{
+    margin: auto;
+}
+.logo-img img
+{
+    height: 60px;
+    border-radius: 50%;    
+}
